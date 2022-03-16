@@ -10,17 +10,13 @@ import org.springframework.stereotype.Component;
 @Component
 public class ConstantPropertiesForMsmUtils implements InitializingBean {
 
-    //无连接阿里云，且与注解@EnableFeignClients冲突
 //    @Value("${aliyun.sms.regionId}")
-    @Value("default")
     private String regionId;
 
 //    @Value("${aliyun.sms.accessKeyId}")
-    @Value("LTAI5t8f5sGZZxziCPHfRaU4")
     private String accessKeyId;
 
 //    @Value("${aliyun.sms.secret}")
-    @Value("0C75j2OEyLvmP0LAyBIpAcoBxVnrKA")
     private String secret;
 
     public static String REGION_Id;
