@@ -11,11 +11,9 @@ import org.springframework.stereotype.Component;
 public class ConstantPropertiesForWeChatUtils implements InitializingBean {
 
 //    @Value("${wx.open.app_id}")
-    @Value("wxed9954c01bb89b47")
     private String appId;
 
 //    @Value("${wx.open.app_secret}")
-    @Value("a7482517235173ddb4083788de60b90e")
     private String appSecret;
 
 //    @Value("${wx.open.redirect_url}")
